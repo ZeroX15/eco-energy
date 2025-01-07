@@ -1,0 +1,47 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #333;
+}
+
+header {
+    background-color: #222;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links a {
+    margin-left: 10px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links a:hover {
+    background-color: #555;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    height: 57vh;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
