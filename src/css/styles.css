@@ -11,8 +11,6 @@ nav {
     padding: 10px 30px; /* Espaçamento interno */
     background-color: #333; /* Cor de fundo */
     color: white; /* Cor do texto */
-    margin: 0;
-    
 }
 
 /* Estilo do logo */
@@ -43,10 +41,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
+    overflow: hidden;
 }
 
 /* Estilo da hero section */
-.hero {
+.hero, .content {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centraliza verticalmente */
@@ -60,14 +59,14 @@ body {
 }
 
 /* Estilo do título principal */
-.hero h1 {
+.hero h1 , .content h1 {
     font-size: 4rem; /* Tamanho grande */
     margin: 0; /* Remove margens padrão */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no texto */
 }
 
 /* Estilo do subtítulo */
-.hero h2 {
+.hero h2, .content p {
     font-size: 1.5rem;
     margin: 10px 0 20px; /* Espaçamento entre o subtítulo e o botão */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra no texto */
@@ -102,6 +101,7 @@ header {
     z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
     background-color: #222; /* Cor de fundo */
     padding: 10px 20px; /* Espaçamento interno */
+    box-sizing: border-box;
 }
 
 footer {
@@ -113,6 +113,7 @@ footer {
     background-color: #222; /* Cor de fundo */
     padding: 20px; /* Espaçamento interno */
     text-align: center; /* Centraliza o conteúdo */
+    box-sizing: border-box;
 }
 
 section {
